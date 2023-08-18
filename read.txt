@@ -1,0 +1,5 @@
+Los commits y los branch por problemas con git tuve que crear un repositorio nuevamente
+
+docker: Mysql:5
+laravel:8
+php:7.4

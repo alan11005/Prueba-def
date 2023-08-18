@@ -1,0 +1,20 @@
+.box {
+    background-color: black;
+    height: 200px;
+    width: 100px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 100px;
+    color: white;
+  
+    /* Agregamos flexbox para centrar verticalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* Propiedades para centrar horizontalmente */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

@@ -1,0 +1,50 @@
+# Laravel specific
+/node_modules
+/public/storage
+/storage/*.key
+/storage/*.log
+/bootstrap/cache
+/vendor
+/.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# IDE specific
+.idea
+.phpstorm.meta.php
+.phpstorm.stubs.php
+.vscode
+
+# Configuration
+.env
+.env.*
+.env.local
+.env.example
+
+# Compiled assets
+/public/css/*
+/public/js/*
+/mix-manifest.json
+/public/mix.js
+
+# Application-specific stuff
+/public/hot
+/public/hot/*.js
+/public/hot/*.js.map
+
+# Laravel Mix
+/node_modules
+/public/mix-manifest.json
+/public/mix.js
+
+# Testing data
+/tests/Browser/screenshots
+/tests/Browser/console
+/tests/Browser/dumps
+
+# Homestead
+/vagrant
+/.vagrant
+

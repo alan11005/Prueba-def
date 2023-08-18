@@ -1,0 +1,45 @@
+.centered-box {
+    background-color: black;
+    height: 510px;
+    width: 200px;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+  
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 0;
+  
+
+    transform: translateY(-50%);
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: gold;
+    
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
